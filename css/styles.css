@@ -1,4 +1,17 @@
-.nav{
-  background-color: #FF00FF;
-  overflow:auto;
+#nav {
+  background-color: #808000;
+  overflow: auto;
+  text-align: justify;
+  min-width: 400px;
+}
+
+#nav:after {
+  content: '';
+  display: inline-block;
+  width: 98%;
+}
+
+#nav li {
+  margin-top: 1.6%;
+  display: inline-block;
 }
