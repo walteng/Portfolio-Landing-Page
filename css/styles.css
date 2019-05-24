@@ -8,8 +8,8 @@
 #nav:after {
   content: '';
   display: inline-block;
-  width: 98%;
-}
+  width: 100%;
+}j
 
 #nav li {
   margin-top: 1.6%;
