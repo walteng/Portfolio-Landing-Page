@@ -1,3 +1,13 @@
+div{
+  column-gap: 40px;
+  column-rule: 4px;
+  column-count: 1;
+  position:static;
+  width: 800px;
+  border: 6px;
+  padding: 30px;
+  margin: 60px;
+}
 h1 {
   text-transform: uppercase;
   color: #008080;
@@ -8,7 +18,7 @@ h1 {
 #nav {
   background-color: #808000;
   overflow: auto;
-  text-align: justify;
+  text-align:justify;
   min-width: 400px;
 }
 
@@ -49,6 +59,7 @@ j #nav li {
   padding: 0 20px;
   float: right; margin: 0px 0px 20px 20px;
   width: 30%;
+  object-fit: contain;
 }
 
 @media only screen and (max-width: 600px){
