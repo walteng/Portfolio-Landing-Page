@@ -2,11 +2,11 @@ div{
   column-gap: 40px;
   column-rule: 4px;
   column-count: 1;
-  position:static;
-  width: 800px;
+  width: 89%;
   border: 6px;
-  padding: 30px;
-  margin: 60px;
+  padding: 60px;
+  margin-left: 2%;
+  margin-right: 10%;
 }
 h1 {
   text-transform: uppercase;
@@ -47,6 +47,7 @@ j #nav li {
   line-height: 30px;
   letter-spacing: 2px;
   color: #000000;
+  margin-left: 10px;
 }
 
 .subtitle {
@@ -60,6 +61,7 @@ j #nav li {
   float: right; margin: 0px 0px 20px 20px;
   width: 30%;
   object-fit: contain;
+  margin-right: 0%;
 }
 
 @media only screen and (max-width: 600px){
@@ -67,4 +69,9 @@ j #nav li {
     width: 65%;
     margin: 10px 0;
   }
+}
+ol {
+  background-color: Maroon;
+  padding: 15px;
+  margin-left: 30px;
 }
