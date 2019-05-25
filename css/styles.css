@@ -13,6 +13,23 @@ h1 {
   color: #008080;
   padding: 10px;
   text-align: center;
+  text-rendering: geometricPrecision;
+  line-height: 36px;
+}
+h2{
+  text-rendering: geometricPrecision;
+  color: #9400D3;
+  padding: 10px;
+  text-align: center;
+  line-height: 10%;
+}
+h3 {
+  text-rendering: optimizeLegibility;
+  padding: 2px;
+  text-align: left;
+  text-transform: none;
+  line-height: 1%;
+  color: #000080;
 }
 
 #nav {
@@ -33,12 +50,7 @@ j #nav li {
   display: inline-block;
 }
 
-.title {
-  text-transform: none;
-  font-size: 35px;
-  line-height: 45px;
-  color: #000000;
-}
+
 
 .para {
   font-family: arial;
@@ -50,12 +62,7 @@ j #nav li {
   margin-left: 10px;
 }
 
-.subtitle {
-  text-transform: none;
-  font-size: 24px;
-  line-height: 36px;
-  color: #000080;
-}
+
 .image {
   padding: 0 20px;
   float: right; margin: 0px 0px 20px 20px;
