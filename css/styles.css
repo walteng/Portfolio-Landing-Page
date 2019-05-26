@@ -1,5 +1,4 @@
-
-div{
+div {
   column-rule: 4px;
   column-count: 1;
   width: 89%;
@@ -8,6 +7,7 @@ div{
   margin-left: 2%;
   margin-right: 0.5%;
 }
+
 h1 {
   text-transform: uppercase;
   color: #008080;
@@ -17,13 +17,15 @@ h1 {
   line-height: 36px;
   margin: 12px;
 }
-h2{
+
+h2 {
   text-rendering: geometricPrecision;
   color: #9400D3;
   padding: 10px;
   text-align: center;
   line-height: 10%;
 }
+
 h3 {
   text-rendering: optimizeLegibility;
   padding: 2px;
@@ -36,7 +38,7 @@ h3 {
 #nav {
   background-color: #808000;
   overflow: auto;
-  text-align:justify;
+  text-align: justify;
   min-width: 400px;
 }
 
@@ -51,10 +53,12 @@ j #nav li {
   display: inline-block;
 }
 
-
+#blogger {
+  margin-left: 5%;
+}
 
 .para {
-  font-family:fantasy;
+  font-family: fantasy;
   font-weight: 100;
   font-size: 20px;
   line-height: 30px;
@@ -62,15 +66,18 @@ j #nav li {
   color: #000000;
   margin-left: 1px;
 }
+
 .image {
   padding: 0 20px;
-  float: right; margin: 0px 0px 20px 20px;
+  float: right;
+  margin: 8px 8px 20px 30px;
   width: 30%;
   object-fit: contain;
-  margin-right: 0%;
+  margin-right: 10%;
 }
-figcaption{
-  text-align:center;
+
+figcaption {
+  text-align: center;
   margin-left: 15%;
   float: left;
   caption-side: bottom;
@@ -78,37 +85,42 @@ figcaption{
   font-weight: bold;
   font-family: fantasy;
 }
-.im{
+
+.im {
   margin-left: auto;
   margin-right: auto;
   width: 95%;
   height: 30%;
 }
+
 ol {
-  font-size:100%;
+  font-size: 100%;
   padding: 15px;
   margin-left: 60px;
   list-style-type: none;
   font-family: fantasy;
 }
-.img{
+
+.img {
   width: 40%;
   object-fit: contain;
   margin-right: 50%;
-  padding:10px;
+  padding: 10px;
 }
-ul{
-  font-size:100%;
+
+ul {
+  font-size: 100%;
   padding: 15px;
   margin-left: 60px;
   font-family: fantasy;
 }
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing:border-box;
+  box-sizing: border-box;
   margin-top: 1%;
   margin-bottom: 3%;
   resize: vertical
@@ -117,6 +129,7 @@ input[type=text], select, textarea {
 input[type=Send]:hover {
   background-color: olive;
 }
+
 input[type=Send] {
   background-color: grey;
   padding: 6px 10px;
@@ -125,19 +138,21 @@ input[type=Send] {
   cursor: pointer;
   max-width: 10%;
 }
+
 label {
-    display:inline-grid;
-    float: left;
-    width: 20%;
+  display: inline-grid;
+  float: left;
+  width: 20%;
 }
-.social
-{
+
+.social {
   position: relative;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
   margin-top: 2%;
 }
+
 input,
 .button {
   width: 100%;
@@ -146,7 +161,7 @@ input,
   border-radius: 4px;
   margin: 5px 0;
   opacity: 0.85;
-  display:inline-block;
+  display: inline-block;
   font-size: 17px;
   line-height: 20px;
   text-decoration: none;
@@ -157,43 +172,50 @@ input:hover,
 .button:hover {
   opacity: 1;
 }
+
 .fb {
   background-color: #6495ED;
   color: white;
 }
 
-.twitter{
+.twitter {
   background-color: #00008B;
   color: white;
 }
 
-.insta{
+.insta {
   background-color: #DA70D6;
   color: white;
 }
-.cl-25{
+
+.cl-25 {
   float: left;
   width: 24.99%;
   margin-top: 0;
 }
-.cl-75{
-  float:left;
+
+.cl-75 {
+  float: left;
   width: 74.99%;
   margin-top: 0;
 }
-.rw::after{
+
+.rw::after {
   content: "";
-  display:inline-grid;
+  display: inline-grid;
   clear: both;
-  align-items:flex-start;
-  padding:1%;
+  align-items: flex-start;
+  padding: 1%;
   margin-top: 3%;
 }
-@media only screen and (max-width: 500px){
+
+@media only screen and (max-width: 500px) {
   .cl-25, .cl-75, input[type=Send] {
-   width: 100%;
-   margin-top: 0;
- }
+    width: 100%;
+    margin-top: 0;
+  }
 }
-hr{
-  border-top: 2px solid olive;}
+
+hr {
+  border-top: 2px solid olive;
+}
