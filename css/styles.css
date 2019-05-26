@@ -1,11 +1,10 @@
 
 div{
-  column-gap: 40px;
   column-rule: 4px;
   column-count: 1;
   width: 89%;
   border: 6px;
-  padding: 60px;
+  padding: 30px;
   margin-left: 2%;
   margin-right: 0.5%;
 }
@@ -72,12 +71,6 @@ j #nav li {
   margin-right: 0%;
 }
 
-@media only screen and (max-width: 600px){
-  .image {
-    width: 65%;
-    margin: 10px 0;
-  }
-}
 ol {
   font-size:75%;
   padding: 15px;
@@ -88,20 +81,14 @@ ul{
   padding: 15px;
   margin-left: 60px;
 }
-#contacts{
-  border-radius: 10px;
-  background-color: ;
-  padding: 40px;
-}
-
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing:content-box;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  box-sizing:border-box;
+  margin-top: 1%;
+  margin-bottom: 3%;
   resize: vertical
 }
 
@@ -121,7 +108,7 @@ label {
     float: left;
     width: 20%;
 }
-.cl
+.social
 {
   position: relative;
   border-radius: 5px;
@@ -137,7 +124,7 @@ input,
   border-radius: 4px;
   margin: 5px 0;
   opacity: 0.85;
-  display: inline-block;
+  display:inline-block;
   font-size: 17px;
   line-height: 20px;
   text-decoration: none;
@@ -161,4 +148,28 @@ input:hover,
 .google {
   background-color: #FFD700;
   color: white;
+}
+.cl-25{
+  float: left;
+  width: 24.99%;
+  margin-top: 0;
+}
+.cl-75{
+  float:left;
+  width: 74.99%;
+  margin-top: 0;
+}
+.rw::after{
+  content: "";
+  display:inline-grid;
+  clear: both;
+  align-items:flex-start;
+  padding:1%;
+  margin-top: 3%;
+}
+@media only screen and (max-width: 500px){
+  .cl-25, .cl-75, input[type=Send] {
+   width: 100%;
+   margin-top: 0;
+ }
 }
