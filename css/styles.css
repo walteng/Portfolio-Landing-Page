@@ -83,3 +83,35 @@ ol {
   padding: 15px;
   margin-left: 30px;
 }
+#contacts{
+  border-radius: 10px;
+  background-color: ;
+  padding: 40px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:content-box;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  resize: vertical
+}
+
+input[type=Send]:hover {
+  background-color: olive;
+}
+input[type=Send] {
+  background-color: grey;
+  padding: 6px 10px;
+  border: 0.99%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+label {
+    display:inline-grid;
+    float: left;
+    width: 150px;
+}
