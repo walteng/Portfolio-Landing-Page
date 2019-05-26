@@ -54,11 +54,11 @@ j #nav li {
 
 
 .para {
-  font-family: arial;
+  font-family:fantasy;
   font-weight: 100;
   font-size: 20px;
   line-height: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: #000000;
   margin-left: 10px;
 }
