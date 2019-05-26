@@ -62,8 +62,6 @@ j #nav li {
   color: #000000;
   margin-left: 1px;
 }
-
-
 .image {
   padding: 0 20px;
   float: right; margin: 0px 0px 20px 20px;
@@ -80,11 +78,18 @@ figcaption{
   font-weight: bold;
   font-family: fantasy;
 }
+.im{
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 30%;
+}
 ol {
   font-size:100%;
   padding: 15px;
   margin-left: 60px;
   list-style-type: none;
+  font-family: fantasy;
 }
 .img{
   width: 40%;
@@ -162,8 +167,8 @@ input:hover,
   color: white;
 }
 
-.google {
-  background-color: #FFD700;
+.insta{
+  background-color: #DA70D6;
   color: white;
 }
 .cl-25{
