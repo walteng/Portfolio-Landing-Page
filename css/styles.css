@@ -12,9 +12,10 @@ h1 {
   text-transform: uppercase;
   color: #008080;
   padding: 10px;
-  text-align: center;
+  text-align: left;
   text-rendering: geometricPrecision;
   line-height: 36px;
+  margin: 12px;
 }
 h2{
   text-rendering: geometricPrecision;
