@@ -103,14 +103,22 @@ ol {
   list-style-type: none;
   font-family: fantasy;
 }
-
 .img {
   width: 40%;
   object-fit: contain;
   margin-right: 50%;
   padding: 10px;
 }
+.c {
+  float: left;
+  width: 33.33%;
+}
 
+.rw:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 ul {
   font-size: 100%;
   padding: 15px;
