@@ -33,6 +33,7 @@ h3 {
   text-transform: none;
   line-height: 1%;
   color: #000080;
+
 }
 
 #nav {
@@ -46,15 +47,17 @@ h3 {
   content: '';
   display: inline-block;
   width: 100%;
+
 }
 
 j #nav li {
   margin-top: 1.6%;
   display: inline-block;
+
 }
 
 #blogger {
-  margin-left: 5%;
+  margin-left: 70%;
 }
 
 .para {
